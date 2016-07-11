@@ -1,0 +1,173 @@
+*{
+	margin:0;
+	padding:0;
+	border: 0; 
+    outline: 0; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    font-size: 100%; 
+    font-family: Microsoft YaHei; 
+    vertical-align: baseline; 
+}
+body{
+	line-height:2;
+	background-color:#cccccc;
+}
+.mainheader{
+	background-color:#333333;
+	height:70px;
+	margin-bottom:20px;
+}
+.mainheader img{
+	width:70px;
+	height:70px;
+}
+nav{
+	position:absolute;
+	top:20px;
+	right:0px;
+}
+nav ul li{
+	float:left;
+	padding-right:20px;
+	margin:5px;
+}
+nav ul li a:link{
+	color:#ffffff;
+}
+nav ul li a:visited{
+	color:#b2b2b2;
+}
+nav ul li a:selected{
+	color:#ffaaaa;
+}
+article,aside{
+	padding:20px;
+	margin:20px;
+	background-color:white;
+	box-shadow:3px 3px 3px #333;
+}
+
+h2{	font-family:Microsoft YaHei;
+	font-size:26px;
+	font-weight:bold;
+}
+h3{
+	font-size:18px;
+	font-weight:bold;
+	color:#6d6d6d;
+}
+
+#detail{
+	font-size:80%;
+	color:#a7a7a7;
+	text-indent:0px;
+}
+
+
+p{
+	text-indent:20px;
+}
+
+article ul li{
+	margin-left:20px;
+	padding:20px;
+	list-style-type:none;
+}
+
+figure{
+    text-align:center;
+	font-size:50%;
+	border-color:#cccccc;
+	border-width:1px;
+	border-style:solid;
+	margin:20px;
+	width:180px;
+	height:180px;
+}
+figcaption{
+	line-height:40px;
+}
+
+.picture{
+	width:120px;
+	height:120px;
+}
+
+article ol li{
+	margin-left:50px;
+}
+table {
+	border:thin solid ;
+	border-color:#cccccc;
+	border-spacing:0px;
+	text-align:left;
+	width:100%;
+}
+th{
+	color:#ffffff;
+	background-color:#333333
+}
+td,th{
+	border:thin solid;
+	border-color:#cccccc;
+}
+aside {
+	line-height:250%;
+}
+#submit{
+	width:100%;
+	padding:10px 0 10px 0;
+	border:1px #ccc solid;
+	border-radius:5px;
+	background-color:blue;
+	color:#fff;
+	
+}	
+aside header{
+	padding-left:10px;
+	border-left:3px #ccc solid;
+}
+aside div{
+	margin-left:15%;
+}
+.right{
+	display:inline-block;
+	width:20%;
+	text-align:right;
+	margin-left:2%;
+	margin-right:2%;
+
+}
+.sum{
+	background-color:#dcdcdc;
+	font-weight:bold;
+}
+aside form input{
+	border:1px #ccc solid;
+	vertical-align:middle;
+}
+aside form label{
+	padding:5px;
+}
+
+.tip{
+	color:#cccccc;
+	line-height:100%;
+	margin-bottom:15px;
+    margin-left:35%;
+}
+textarea{
+	border:1px #ccc solid;
+	vertical-align:top;
+	margin:15px 0 15px 0;
+}
+
+	
+footer{
+	height:40px;
+	text-align:center;
+	background-color:#000000;
+	color:#ffffff;
+	padding:20px 0 30px 0;
+}
