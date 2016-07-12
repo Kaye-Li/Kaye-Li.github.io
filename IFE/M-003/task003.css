@@ -1,0 +1,43 @@
+body{
+	padding:20px;
+}
+.main{
+	margin:0 auto;
+	padding:20px;
+	background-color: #eee;
+	border:1px solid #999;
+	overflow:auto;
+	min-width: 600px;
+}
+.myname{
+	width:160px;
+	padding:20px;
+	background-color: #fff;
+	border:1px solid #999;
+	float:left;
+}
+.touxiang{
+	float:left;
+}
+h3{
+	text-align: right;
+}
+
+.logo{
+	width:80px;
+	padding:20px;
+	border:1px solid #999;
+	background-color: #fff;
+	float:right;
+
+}
+.introduce{
+	padding:20px;
+	margin-left: 220px;
+	margin-right: 140px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+p{
+	text-indent: 1cm;
+}
