@@ -1,0 +1,149 @@
+body{
+	margin:0;
+	padding:0;
+	font-size: 14px;
+	font-family: "黑体";
+	min-width: 750px;
+	background-color: #ccc;
+}
+/*头部*/
+.header{
+	background-color: #333;
+	height:70px;
+	width:100%;
+}
+.nav ul{
+	float:right;
+	margin:0;
+	padding:0;
+}
+.nav ul li{
+	display: inline-block;
+	list-style: circle;
+	margin-right: 10px;
+	line-height: 70px;
+}
+.nav a{
+	text-decoration: none;
+	color:white;
+}
+.nav a:hover{
+	color:#ccc;
+}
+.header img{
+	width:70px;
+	height: 70px;
+	position: absolute;
+	top:0;
+	left:0;
+}
+/*侧栏*/
+.aside{
+	float:right;
+	width:350px;
+	background-color: white;
+	line-height: 2;
+	padding:20px;
+	margin:20px;
+	box-shadow: 2px 2px 2px #848484;
+}
+.aside h2{
+	border-left: 3px #ccc solid;
+	padding-left: 5px;
+}
+.labeldetail{
+	width:30%;
+	display: inline-block;/*将label同个框分开，先可以用text-algin*/
+	text-align: right;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	vertical-align: top;
+}
+textarea{
+	width:50%;
+	height:100px;
+}
+input[type='submit']{
+	background-color: blue;
+	width:100%;
+	height: 40px;
+	color:white;
+	border-radius: 5px;
+	border:1px solid #3555D0;
+}
+/*主体*/
+.paper{
+	background-color: #fff;
+	margin:20px;
+	margin-right: 430px;
+	padding:20px;
+	box-shadow: 2px 2px 2px #848484;
+	line-height: 2;
+}
+.paper p{
+	text-indent: 0.5cm;
+}
+.paper h3{
+	color:#676767;
+}
+span,time{
+	color:#ccc;
+}
+.paper img{
+	width:350px;
+	height: 350px;
+}
+.paper ul li{
+	list-style: none;
+}
+
+.img_list{
+	padding:5px;
+	border:1px #ccc solid;
+	width: 120px;
+	height:150px;
+	display: inline-block;
+	margin:10px;
+}
+.img_list p{
+	line-height: 0;
+	text-align:center;
+	text-indent: 0;
+}
+.img_list img{
+	max-width: 100%;
+	height: auto;
+}
+.paper ol{
+	font-weight: bold;
+}
+table{
+	width:100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+table,th,td{
+	border:1px solid #ccc;
+}
+th,td{
+	padding:0 5px 0 5px;
+}
+th{
+	background:#333;
+	color:#fff;
+}
+.sum{
+	background-color: #ccc;
+	font-weight: bold;
+}
+
+/*脚部*/
+.footer{
+	background-color: #333;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	clear:both;
+	color:#fff;
+}
