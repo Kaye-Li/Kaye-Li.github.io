@@ -115,6 +115,7 @@ body{
 	height:200px;
 	clear: both;
 	margin:44px 20px 44px 44px;
+	overflow: hidden；
 }
 .what{
 	width:207px;
@@ -159,25 +160,72 @@ body{
 	line-height: 16px;
 	margin: 10px 0;
 }
+.pink
+.pink{
+	height: 50px;
+	vertical-align: bottom;
+	color: pink;
+
+}
 /*下面*/
 .bottom{
 	width:892px;
 	height: 587px;
-	margin:0 44px 44px 44px;
+	margin:44px 44px 44px 44px;
 }
 /*下面左面*/
 .bottom_left{
 	width:415px;
 	height:587px;
-	background-color: #70A070;
 	display: inline-block;
 }
+.lefttop{
+	width: 415px;
+	border-bottom: 2px solid #11456b;
+}
+.technologe{
+	font-size: 42px;
+	color: #11456b;
+	font-weight: bold;
+	font-family: "黑体";
+	margin-bottom: 16px;
+}
+#bigyellow{
+	font-size: 72px;
+	color: #f5e327;
+	font-weight: bold;
+	font-style: oblique;
+}
+#thirty{
+	font-size: 33px;
+	color: #11456b;
+	font-weight: bold;
+}
+
+
+.qianduan{
+	padding:10px 0 10px 0;
+	font-size: 16px;
+	color: #767777;
+	font-family: "宋体";
+	line-height: 16px;
+	text-align: center;
+	
+}
+
+
 /*下面右面*/
 .bottom_right{
 	width:458px;
 	height:587px;
-	background-color: #F87C2A;
 	float:right;
+}
+.bottom_right p{
+	font-size: 16px;
+	color: #545b5b;
+	font-family: "宋体";
+	text-align: center;
+	line-height: 587px;
 }
 .footer{
 	width:892px;
